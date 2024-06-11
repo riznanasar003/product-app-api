@@ -1,10 +1,10 @@
 const mongoose = require("mongoose")
 const schema = mongoose.Schema(
     {
-        "proid":String,
-        "proname":String,
-        "mandate":String,
-        "price":String
+        "proid":{type:String,required:true},
+        "proname":{type:String,required:true},
+        "mandate":{type:String,required:true},
+        "price":{type:String,required:true}
         
     }
 
